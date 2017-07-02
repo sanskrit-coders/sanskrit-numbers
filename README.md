@@ -2,7 +2,7 @@
 Code to get cardinal and ordinal numbers in Sanskrit
 
 ### Usage
-`sanskrit_numbers.py` provides two functions, for obtaining ordinals and cardinals.
+`sanskrit_numbers.py` provides two functions, for obtaining ordinals and cardinals. Currently, it only works for numbers up to 1000, although it should be fairly straightforward to extend it. It would be interesting to come up with compact representations for a number (dynamic programming?), for example: should 77,000 be _saptasahasrottarasaptAyuta_ or _saptasaptatisahasra_?
 
 ### Use case
 In large projects like Mahabharata text encoding, it is required to get "243rd Chapter" in Sanskrit as ___tricatvAriMzottaradvizatatamO adhyAyaH___
